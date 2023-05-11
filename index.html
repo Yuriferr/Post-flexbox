@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/css-3.png"/>
+    <title>Flex Direction</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Css <span>Flex Direction</span></h1>
+
+        <div class="containerFlex">
+            <div class="box red"><img src="images/box.png"/></div>
+            <div class="box blue"><img src="images/box.png"/></div>
+            <div class="box yellow"><img src="images/box.png"/></div>
+            <div class="box green"><img src="images/box.png"/></div>
+        </div>
+
+        <div class="containerButtons">
+            <button onclick="row()">flex-direction: row;</button>
+            <button onclick="rowReverse()">flex-direction: row-reverse;</button>
+            <button onclick="column()">flex-direction: column;</button>
+            <button onclick="columnReverse()">flex-direction: column-reverse;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
